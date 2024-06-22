@@ -1,0 +1,87 @@
+body
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./3745c3e50e0e529a2b4e0c78637e1ce3.jpg'); /* Replace 'your-image-url.jpg' with the URL of your HD image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Do not repeat the background */
+    height: 100%; /* Set the height of the body to the full viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.display
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    font-family: "Alata", sans-serif;
+    color: rgb(220, 220, 220);
+    letter-spacing: 10px;
+    background: rgba( 255, 255, 255, 0.05 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 2px );
+   -webkit-backdrop-filter: blur( 2px );
+   border-radius: 80px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+   padding: 0px 100px;
+   margin: 50px 0px;
+
+}
+
+.all-buttons
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.only-buttons
+{
+    display: flex;
+}
+
+.only-buttons > div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 100px;
+   
+}
+
+.only-buttons > div > button
+{
+   height: 60px;
+   width: 100px;
+   color: white;
+   font-family: "Alata", sans-serif;
+   letter-spacing: 3px;
+   font-weight: 700;
+   background: rgba( 255, 255, 255, 0.05 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 2px );
+   -webkit-backdrop-filter: blur( 2px );
+   border-radius: 20px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.lap-records
+{
+    color: white;
+    font-size: 5rem;
+    font-family: "Alata", sans-serif;
+   letter-spacing: 2px;
+}
+
